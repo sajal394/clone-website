@@ -61,31 +61,31 @@ ul {
 .hover-link:hover {
   color: var(--accent-color);
 }
-.primary-button{
-    background-color: var(--accent-color);
-    border-radius: 6px;
-    font-weight: 700;
-    color: white !important;
-    padding: 12px 24px;
-    box-shadow: 0 0 2px var(--seconday-text-color);
-    transition: 0.2s ease-out;
+.primary-button {
+  background-color: var(--accent-color);
+  border-radius: 6px;
+  font-weight: 700;
+  color: white !important;
+  padding: 12px 24px;
+  box-shadow: 0 0 2px var(--seconday-text-color);
+  transition: 0.2s ease-out;
 }
 
-.primary-button:hover{
-    background-color: var(--accent-color-dark);
+.primary-button:hover {
+  background-color: var(--accent-color-dark);
 }
 
-.secondary-button{
-    border: 0.5px solid var(--seconday-text-color);
-    border-radius: 6px;
-    font-weight: 700;
-    color: var(--primary-text-color);
-    padding: 12px 24px;
-    transition: .2s ease-out;
+.secondary-button {
+  border: 0.5px solid var(--seconday-text-color);
+  border-radius: 6px;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  padding: 12px 24px;
+  transition: 0.2s ease-out;
 }
-.secondary-button:hover{
-    border-color: var(--accent-color);
-    color: var(--accent-color) !important;
+.secondary-button:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color) !important;
 }
 /* top banner */
 .top-banner {
@@ -119,99 +119,114 @@ ul {
 }
 
 /* header section */
-header{
-    padding: 50px var(--padding-inline-section) 0;
-
+header {
+  padding: 50px var(--padding-inline-section) 0;
 }
-.header-section{
-    justify-content: center;
-    gap: 50px;
+.header-section {
+  justify-content: center;
+  gap: 50px;
 }
 
-.header-left{
-    max-width: 40vw;
-
+.header-left {
+  max-width: 40vw;
 }
-.header-left h1{
-    margin-top: 20px;
-
+.header-left h1 {
+  margin-top: 20px;
 }
-.get-started-button{
-    margin-top: 20px;
+.get-started-button {
+  margin-top: 20px;
 }
-.header-right img{
-    width: 600px;
-
+.header-right img {
+  width: 600px;
 }
 
 /* companies section */
-.companies-header{
-    text-align: center;
-    margin-block: 30px;
-    color: var(--primary-text-color);
-
+.companies-header {
+  text-align: center;
+  margin-block: 30px;
+  color: var(--primary-text-color);
 }
-.logos{
-    justify-content: space-between;
-    flex-wrap: wrap;
-
+.logos {
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.logo{
-    height: 45px;
-
+.logo {
+  height: 45px;
 }
 
 /* features section */
 
-.features{
-    padding: 80px var(--padding-inline-section) 0;
-background-image: url(./assets/asset\ 34.svg);
-background-repeat: no-repeat;
-background-position: center;
+.features {
+  padding: 80px var(--padding-inline-section) 0;
+  background-image: url(./assets/asset\ 34.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.features-header{
-    text-align: center;
+.features-header {
+  text-align: center;
 }
 
-.features-heading-text{
-    margin-bottom: 20px;
-
-    
+.features-heading-text {
+  margin-bottom: 20px;
 }
 
-.features-area{
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 40px;
+.features-area {
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
 }
 
-.features-card{
-    flex-direction: column;
-    gap: 20px;
-    max-width: 30%;
-    text-align: center;
-
-
+.features-card {
+  flex-direction: column;
+  gap: 20px;
+  max-width: 30%;
+  text-align: center;
 }
 
 /* big features section */
 
-.big-features{
-    padding: 30px var(--padding-inline-section) 0;
-
+.big-features {
+  padding: 30px var(--padding-inline-section) 0;
 }
-.big-feature-container{
-    gap: 30px;
-
+.big-feature-container {
+  gap: 30px;
 }
 
-.feature-img img{
-    width: 100%;
+.feature-img img {
+  width: 100%;
 }
 
-.feature-desc{
-    flex-direction: column;
-    align-items: flex-start;
+.feature-desc {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* examples section */
+
+.examples-header {
+  flex-direction: column;
+  grid-area: 20px;
+}
+
+.examples-card{
+    width: 23%;
+    position: relative;
+    min-height: 300px;
+    background: black;
+    background: url(./assets/asset\ 36.jpeg) ;
+}
+.examples-area{
+    justify-content: space-between;
+    margin-block: 30px;
+    
+}
+
+.card-text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
 }
